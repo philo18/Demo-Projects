@@ -1,0 +1,239 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: #000;
+	color: #fff;
+	font-family: Arial;
+	margin: 0 auto;
+	width: 90%;
+}
+header{
+	display: flex;
+	padding-top: 20px;
+	justify-content: space-between;
+}
+h1{
+	font-family: 'Parisienne', cursive;
+	color: #f5e35d;
+	letter-spacing: 5px;
+	font-size: 40px;
+}
+#header-logo p{
+	color: #bdbcb7;
+}
+#header-addr{
+	line-height: 22px;
+}
+address p{
+	color: #bdbcb7;
+}
+#phone{
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+.nav{
+	width: 102%;
+	margin-top: 30px;
+	border: solid tranparent;
+	background: #292724;
+	border-radius: 5px;
+}
+#nav{
+	display: flex;
+	
+}
+#nav li{
+	list-style: none;
+	padding: 10px 30px 10px 10px;
+}
+#nav a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+}
+#cover{
+	width: 100%;
+	margin-top: 30px;
+}
+#cover img{
+	width: 100%;
+	border: 8px solid #544e44;
+}
+#container{
+	margin-top: 30px;
+
+}
+#container h2{
+	text-align: center;
+}
+#container p{
+	width: 102%;
+	color: #bdbcb7;
+	margin-top: 20px;
+	line-height: 20px;
+}
+#container div{
+	border-bottom: 2px solid #544e44;
+	margin-top: 30px;
+}
+#gallery{
+	width: 102%;
+	margin-top: 30px;
+	display: flex;
+}
+#img1 img, #img1 p{
+	width: 90%;
+	color: #bdbcb7;
+	
+}
+#img1 img{
+	height: 20vh;
+	border:2px solid;
+	
+}
+#line{
+	border-bottom: 2px solid #544e44;
+	margin-top: 30px;
+}
+#signup{
+	width: 102%;
+	height: 40vh;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+#signup-img img, #input-form {
+	width: 90%;
+	height: 30vh;
+}
+#input-form{
+	margin-right: 130px;
+}
+#input-form label{
+	color: #d1ba66;
+}
+.row-tab{
+	padding-top: 30px;
+	display: flex;
+}
+.input-data{
+	width: 50%;
+	height: 4vh;
+	margin-left: 70px;
+}
+ textarea{
+ 	width: 50%;
+	margin-left: 45px;
+	height: 7vh;
+}
+.btn{
+	margin-top: 5px;
+	width: 45%;
+	height: 3vh;
+	background: #e7ed79;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	position: relative;
+	left: 11%;
+}
+#footer{
+	margin-top: 30px;
+	width: 102%;
+	height: 10vh;
+	display: flex;
+}
+#footer-para p{
+	width: 90%;
+	color: #61615a;
+}
+#footer-fontawesome{
+	width:25%;
+	height: 10vh;
+}
+#footer-fontawesome ul li{
+	
+}
+#footer-fontawesome a{
+	cursor: pointer;
+}
+@media screen and (max-width: 600px){
+	h1{
+		font-size: 30px;
+		letter-spacing: 2px;
+
+	}
+	#header-logo p{
+		font-size: 10px;
+		font-weight: bold;
+	}
+	address p{
+		letter-spacing: normal;
+		font-size: 10px;
+		font-weight: bold;
+	}
+	#container h2{
+		font-size: 20px;
+		letter-spacing: 3px;
+	}
+	#container p{
+		font-size: 15px;
+	}
+	#phone{
+		font-size: 13px;
+	}
+	#nav a{
+		font-size: 12px;
+	}
+	#gallery{
+		width: 102%;
+		margin-top: 30px;
+		display: block;
+	}
+	#img1{
+		display: flex;
+		padding-bottom: 10px;
+	}
+	#img1 p{
+		margin: auto;
+		padding-left: 10px;
+	}
+	#gallery img, #gallery p{
+		width: 50%;
+	}
+	
+	#input-form p{
+
+		font-size: 10px;
+		font-weight: bold;
+	}
+	.row-tab{
+		margin-top: 10px;
+		padding:0;
+		display: block;
+	}
+	.btn{
+		width: 100%;
+		font-size: 15px;
+		font-weight: bold;
+		position: relative;
+		left: 65%;
+	}
+	.input-data{
+		width: 110%;
+		height: 3vh;
+	}
+	.text-area{
+		width: 110%;
+		margin-top: 10px;
+		position: relative;
+		left:22px;
+		
+	}
+}
